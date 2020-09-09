@@ -1,0 +1,16 @@
+As far as performance goes, SQL Server can return results just as quickly with 
+4 aggregate window functions as 1 so long as the windows are the same.
+
+RANGE BETWEEN UNBOUNDED PRECEDING AND CURRENT ROW - is the default value
+
+The LAG() and LEAD() window functions give us the ability to look backward or forward in time, respectively. 
+Note that the LAG() and LEAD() functions only work over the window you specified.
+The function call happens after the WHERE clause filters out data.
+
+L1 - DATEPARTS,DATEADD, DATEDIFF, CALENDAR TABLES, (FORMAT,CAST,CONVERT) for reporting
+L2 - CAST, CONVERT, PARSE, TRY_CAST, TRY_CONVERT, TRY_PARSE, TIMEZONE, TIMEZONE OFFSET, SWITCHOFFSET
+NULL FOR INVALID DATE FORMATS
+L3 - COUNT, MIN, MAX, SUM, STATISTICAL, ROLLUP, CUBE, GROUPING SETS
+L4 - WINDOW FUNCTION, RANKING FUNCTION, LAG AND LEAD
+
+
